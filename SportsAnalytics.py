@@ -1,13 +1,3 @@
-#Tom Bliss version 11/2
-
-#New functions:
-# Average -works same as BA.Average
-# Stddev - works same as BA.Stddev
-
-#changes
-# Graph_Binned_stats_with_prediction - can now have multiple lines
-# model_test - fixed issue with p-value
-
 import numpy as np
 import pandas as pd
 import statsmodels.api as sm
