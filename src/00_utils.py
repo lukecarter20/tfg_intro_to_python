@@ -250,7 +250,6 @@ def LinearRegPredict(model,X):
     return(result)
 
 
-# todo here
 def Binned_stats(buckets,col1,col2,includeSE=None,SEMultiplier=None,includeSD=None,SD=None):
     """Print the table of binned stats
 
@@ -305,7 +304,6 @@ def Binned_stats(buckets,col1,col2,includeSE=None,SEMultiplier=None,includeSD=No
 
 # In[ ]:
 
-
 def Graph_Binned_stats(binned_stats):
     """Draw the graph
 
@@ -320,7 +318,7 @@ def Graph_Binned_stats(binned_stats):
     return fig
 
 
-#Tom added linestyle as option and allowing multiple lines to be plotted
+#Added linestyle as option and allowing multiple lines to be plotted
 def Graph_Binned_stats_with_prediction(binned_stats,lineX,lineY,linestyle,lineX2 = None,lineY2 = None,linestyle2 = None,xlims = None, ylims = None):
     """Draw the graph
 
@@ -474,7 +472,6 @@ def model_test(errorValues = None, PredictionValue = None, Truth = None):
     return SummaryTable
 
 
-#Tom's Additions:
 def Average(Array1, row_weight):
     """calculate a weighted mean
 
